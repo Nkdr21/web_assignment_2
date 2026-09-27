@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="kk">
+<head>
+  <meta charset="UTF-8">
+  <title>My Website</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Task 0. Navigation Bar -->
+  <header class="navbar">
+    <div class="logo">
+      <img src="aaaaa.jpg" alt="logo" class="round-logo">
+      Anuarbek Nurkadyr
+    </div>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Task 1. Card Row -->
+  <div class="card-container">
+    <div class="card">
+      <img src="111.jpg" alt="city">
+      <div class="card-content">
+        <h3>City</h3>
+        <p>I am originally from Shymkent, but I am currently living in Astana for my university studies.</p>
+        <button>More</button>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="222.jpg" alt="School">
+      <div class="card-content">
+        <h3>My School</h3>
+        <p>When I was studying at my school, I was very interested in mathematics and logic. This was a major reason for my choice of the IT field.</p>
+        <button>More</button>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="444.jpg" alt="University">
+      <div class="card-content">
+        <h3>My University</h3>
+        <p>I am currently a student at Astana IT University, focusing on Front-End web development and other core technologies.</p>
+        <button>More</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Task 2. Grid Layout -->
+  <section class="grid-layout-section" id="layout-demo">
+    <h2>My Student Dashboard</h2>
+    <div class="grid-container">
+
+      <div class="grid-header">
+        <h3>Welcome to My Workspace</h3>
+      </div>
+
+      <div class="grid-sidebar">
+        <h4>My Focus:</h4>
+        <ul>
+          <li>HTML & CSS</li>
+          <li>C# Development</li>
+          <li>Discrete Mathematics</li>
+        </ul>
+      </div>
+
+      <div class="grid-main">
+        <h4>Weekly Study Plan</h4>
+        <p><strong>Monday:</strong> Front-End Web Tech assignments</p>
+        <p><strong>Wednesday:</strong> C# programming practice</p>
+        <p><strong>Friday:</strong> Review lectures and submit homework</p>
+        <p><strong>Weekend:</strong> Rest and travel (Astana - Shymkent)</p>
+      </div>
+
+      <div class="grid-footer">
+        <p>&copy; 2026 Anuarbek Nurkadyr | Astana IT University</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Task 3. Image Gallery -->
+  <section class="gallery-section" id="gallery">
+    <h2>My Gallery</h2>
+    <div class="gallery-grid">
+
+      <div class="gallery-item">
+        <img src="12.jpg" alt="AITU" class="gallery-img">
+        <div class="gallery-caption">Astana IT University</div>
+      </div>
+      <div class="gallery-item">
+        <img src="14.jpg" alt="Coding" class="gallery-img">
+        <div class="gallery-caption">Coding in VS Code</div>
+      </div>
+      <div class="gallery-item">
+        <img src="13.jpg" alt="Web Dev" class="gallery-img">
+        <div class="gallery-caption">HelloWorld("print")</div>
+      </div>
+
+      <div class="gallery-item">
+        <img src="20.jpg" alt="Shymkent" class="gallery-img">
+        <div class="gallery-caption">Hometown: Shymkent</div>
+      </div>
+      <div class="gallery-item">
+        <img src="15.jpg" alt="Astana" class="gallery-img">
+        <div class="gallery-caption">City Life: Astana</div>
+      </div>
+      <div class="gallery-item">
+        <img src="16.jpg" alt="Almaty" class="gallery-img">
+        <div class="gallery-caption">Travel: Almaty</div>
+      </div>
+
+      <div class="gallery-item">
+        <img src="17.jpg" alt="Cinema" class="gallery-img">
+        <div class="gallery-caption">Amigo</div>
+      </div>
+      <div class="gallery-item">
+        <img src="18.jpg" alt="Logic" class="gallery-img">
+        <div class="gallery-caption">Car</div>
+      </div>
+      <div class="gallery-item">
+        <img src="19.jpg" alt="Friends" class="gallery-img">
+        <div class="gallery-caption">IDK</div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Task 4. Portfolio Page (Flexbox + Grid) -->
+  <section class="portfolio-section" id="projects">
+    <h2>My Projects & Skills</h2>
+    <div class="portfolio-grid">
+
+      <div class="projects-area">
+        <div class="project-card">
+          <img src="01.png" alt="Web Project" class="project-img">
+          <div class="project-info">
+            <h3>Personal Portfolio Website</h3>
+            <p>A responsive website built with HTML5 and CSS3 using Flexbox and Grid layouts. This is my main project for the Front-End course.</p>
+            <button>View Project</button>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <img src="123.jpg" alt="C# Project" class="project-img">
+          <div class="project-info">
+            <h3>C# Console Application</h3>
+            <p>A logic-based application developed in C# and .NET. Tested and executed using Visual Studio Code.</p>
+            <button>View Code</button>
+          </div>
+        </div>
+      </div>
+
+      <aside class="sidebar-info">
+        <h3>My Profile</h3>
+        <p>Hello! I am Anuarbek, a student at Astana IT University passionate about software development and IT infrastructure.</p>
+
+        <h4 style="margin-top: 15px;">Tech Skills:</h4>
+        <ul style="list-style: none; padding-left: 0; margin-top: 10px;">
+          <li>HTML5, CSS3</li>
+          <li>C#, .NET</li>
+          <li>VS Code, Git</li>
+        </ul>
+
+        <h4 style="margin-top: 15px;">Career Goal:</h4>
+        <p>Future System Administrator / Developer looking for opportunities in Astana.</p>
+      </aside>
+
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer" id="contact">
+    <p>&copy; 2026 Anuarbek Nurkadyr. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
